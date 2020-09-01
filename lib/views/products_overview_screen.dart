@@ -10,7 +10,8 @@ class ProductsOverviewScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Minha loha"),
+        title: Text("Minha loja"),
+        centerTitle: true,
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(10),

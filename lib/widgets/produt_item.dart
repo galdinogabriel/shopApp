@@ -43,7 +43,7 @@ class ProductItem extends StatelessWidget {
             color: Theme.of(context).accentColor,
             onPressed: () {
               cart.addItem(product);
-              print(cart.itemCount.toString());
+              print(cart.itemsCount.toString());
             },
           ),
         ),
